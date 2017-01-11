@@ -1,14 +1,18 @@
 var React = require('react');
+var TopTwentyHeader = require('./TopTwentyHeader.jsx');
+//var TopTwentyList = require('./TopTwentyList.jsx');
 
-var TopTwenty = React.createClass(
+var TopTwenty = React.createClass({
 
      render: function(){
 
           return(
                <section className='main-content'>
-                    <h1>UK Top Twenty</h1>
+                    <TopTwentyHeader title="UK Top 20" />
                </section>
           )
      }
 
-)
+});
+
+module.exports = TopTwenty;
