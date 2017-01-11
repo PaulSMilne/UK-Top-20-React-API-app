@@ -1,6 +1,6 @@
 var React = require('react');
 var TopTwentyHeader = require('./TopTwentyHeader.jsx');
-//var TopTwentyList = require('./TopTwentyList.jsx');
+var TopTwentyList = require('./TopTwentyList.jsx');
 
 var TopTwenty = React.createClass({
 
@@ -24,6 +24,7 @@ var TopTwenty = React.createClass({
           return(
                <section className='main-content'>
                     <TopTwentyHeader title="UK Top 20" />
+                    <TopTwentyList songs={this.state.songs} />
                </section>
           )
           console.log(data);
