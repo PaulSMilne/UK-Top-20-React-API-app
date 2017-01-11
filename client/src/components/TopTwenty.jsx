@@ -4,6 +4,14 @@ var TopTwentyHeader = require('./TopTwentyHeader.jsx');
 
 var TopTwenty = React.createClass({
 
+     getInitialState: function () {
+          return { songs: [] }
+     },
+
+     componentDidMount: function() {
+          
+     }
+
      render: function(){
 
           return(
