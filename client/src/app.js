@@ -1,9 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var TopTwenty = require('./components/TopTwenty.jsx')
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> App Started </h1>,
+    <TopTwenty />,
     document.getElementById('app')
   );
 }
