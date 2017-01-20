@@ -1,4 +1,4 @@
-#Homework
+#UK Top 20 React app
 
 ##Learning objectives
 - Practise making a request in a React app and passing the data from that request down the chain of components
